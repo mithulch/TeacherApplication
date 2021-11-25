@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:  datasource:    username: root
+    password: admin
+    url: jdbc:mysql://localhost:3306/school
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:    database-platform: org.hibernate.dialect.MySQL5Dialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:      ddl-auto: update
