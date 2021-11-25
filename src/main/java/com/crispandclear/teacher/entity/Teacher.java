@@ -33,7 +33,7 @@ public class Teacher {
 	@Column(name = "experience", length = 2, nullable = false)
 	private int experience;
 	
-	@Column(name = "salary")
+	@Column(name = "salary",length = 8)
 	private long salary;
 	
 	@Column(name = "city",length = 20)
