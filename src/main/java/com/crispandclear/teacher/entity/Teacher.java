@@ -36,7 +36,7 @@ public class Teacher {
 	@Column(name = "salary")
 	private long salary;
 	
-	@Column(name = "city")
+	@Column(name = "city",length = 15)
 	private String city;
 
 }
